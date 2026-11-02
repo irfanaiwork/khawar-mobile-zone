@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://khawarmobilezone.pk/sitemap.xml
+Sitemap: https://khawar-mobile-zone-blond.vercel.app/sitemap.xml
