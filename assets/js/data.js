@@ -61,9 +61,9 @@ const BRANDS = [
 /* Shop photography — replace these placeholder slots with the
    shop's real photographs (same file names, folder: assets/img/shop/). */
 const SHOP_IMAGES = {
-  hero:     { file: "shop-hero.svg",     label: "Shop Front",        alt: "Khawar Mobile Zone shop" },
-  exterior: { file: "shop-exterior.svg", label: "Shop Exterior",     alt: "Khawar Mobile Zone shop exterior at Al Hassan Mobile Market" },
-  interior: { file: "shop-interior.svg", label: "Inside the Shop",   alt: "Inside Khawar Mobile Zone" },
-  counter:  { file: "shop-counter.svg",  label: "Display Counters",  alt: "Mobile phone display counters at Khawar Mobile Zone" },
-  showcase: { file: "shop-showcase.svg", label: "Product Showcase",  alt: "Smartphone showcase at Khawar Mobile Zone" }
+  hero:     { file: "shop-hero.jpg",     label: "Shop Front",        alt: "Khawar Mobile Zone shop" },
+  exterior: { file: "shop-exterior.jpg", label: "Shop Exterior",     alt: "Khawar Mobile Zone shop exterior at Al Hassan Mobile Market" },
+  interior: { file: "shop-interior.jpg", label: "Inside the Shop",   alt: "Inside Khawar Mobile Zone" },
+  counter:  { file: "shop-counter.jpg",  label: "Display Counters",  alt: "Mobile phone display counters at Khawar Mobile Zone" },
+  showcase: { file: "shop-showcase.jpg", label: "Product Showcase",  alt: "Smartphone showcase at Khawar Mobile Zone" }
 };
