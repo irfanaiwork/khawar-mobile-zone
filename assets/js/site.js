@@ -61,6 +61,7 @@
       <div class="scrim" data-menu-close></div>
       <div class="drawer-panel">
         <button class="icon-btn drawer-close" type="button" data-menu-close aria-label="Close menu">${I.x}</button>
+        <div class="drawer-brand"><img src="${asset("img/kmz-logo.webp")}" alt="KMZ — Khawar Mobile Zone" width="150" height="58"></div>
         <nav aria-label="Mobile navigation">${navLinks()}</nav>
         <div class="drawer-foot">
           <a class="btn btn-navy btn-block" href="${BUSINESS.phoneLink}">${I.phone} Call ${BUSINESS.phoneDisplay}</a>
