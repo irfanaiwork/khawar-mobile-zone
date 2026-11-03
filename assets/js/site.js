@@ -42,8 +42,7 @@
     <header class="site-header" id="siteHeader">
       <div class="header-in">
         <a class="logo" href="${BASE}/" aria-label="Khawar Mobile Zone — Home">
-          <span class="logo-mark">${I.logoMark}</span>
-          <span class="logo-text"><b>Khawar Mobile Zone</b><span>KHAIRPUR TAMEWALI</span></span>
+          <img class="logo-img" src="${asset("img/logo.png")}" alt="Khawar Mobile Zone" width="267" height="50">
         </a>
         <nav class="main-nav" aria-label="Main navigation"><ul>
           ${NAV.map(n => `<li><a class="${PAGE === n.key ? "active" : ""}" href="${n.href}">${n.label}</a></li>`).join("")}
@@ -89,8 +88,7 @@
       <div class="container">
         <div class="footer-in">
           <div>
-            <div class="footer-logo"><span class="logo-mark">${I.logoMark}</span>
-              <span class="logo-text"><b style="color:#fff">Khawar Mobile Zone</b><span style="color:#93A9CC">KHAIRPUR TAMEWALI</span></span></div>
+            <div class="footer-logo"><span class="footer-logo-plate"><img class="logo-img" src="${asset("img/logo.png")}" alt="Khawar Mobile Zone" width="235" height="44"></span></div>
             <p>Your local mobile phone shop for genuine smartphones from leading brands — with honest advice and personal service, every day.</p>
           </div>
           <div><h4>Quick Links</h4><ul>
